@@ -67,9 +67,13 @@ public class Position {
 	 */
 	public double getYearlySalary() {
 		
-		//Add Code Here [You have to use If/Else to get graded]
+		if(jobType == true){
+			return 40*4.5*12*hSalary;
+		}else{
+			return 20*4.5*12*hSalary;
+		}
 		
-		return 0; //Temporal Return
+		
 		
 	}
 }

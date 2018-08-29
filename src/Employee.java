@@ -81,9 +81,14 @@ public class Employee {
 	 */
 	public int seniorityLevel() {
 		
-		//Add Code Here [You have to use If/Else to get graded]
+		if (this.getYearsOfService()>=10){return 3;}
+		else if(this.getYearsOfService()>=5){return 2;}
+		else if(1<=this.getYearsOfService()){return 1;}
+		else return 0;
+
+
 		
-		return 0;// Temporal Return
+	
 		
 	}
 	
